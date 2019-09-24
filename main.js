@@ -59,5 +59,3 @@ function init() {
     //start TypeWritter
     new TypeWriter(txtElement, words, wait);
 }
-
-

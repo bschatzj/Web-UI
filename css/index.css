@@ -126,6 +126,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 @media (max-width: 750px) {
   .secondHead {
     font-size: 3.2rem;
@@ -219,7 +224,45 @@ footer {
   background-color: #b8d8d8;
   padding: 0px;
   justify-content: space-evenly;
+  align-items: center;
   height: 7%;
+  margin-bottom: 0px;
+  padding: 0;
+}
+footer h1 {
+  font-size: 2.8rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  footer h1 {
+    font-size: 1.5rem;
+  }
+}
+footer .guidr {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 1.2rem;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  footer nav {
+    font-size: 0.9rem;
+  }
+}
+footer nav a {
+  color: #fe5f55;
+  text-decoration: none;
+  text-align: center;
+}
+footer nav a:hover {
+  text-decoration: underline solid black;
 }
 footer h1 {
   font-size: 2.8rem;
@@ -388,8 +431,46 @@ header {
   background-color: #b8d8d8;
   padding: 0px;
   justify-content: space-evenly;
+  align-items: center;
   height: 7%;
+  margin-bottom: 0px;
+  padding: 0;
   padding-bottom: 10px;
+}
+header h1 {
+  font-size: 2.8rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+header .guidr {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 1.2rem;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  header nav {
+    font-size: 0.9rem;
+  }
+}
+header nav a {
+  color: #fe5f55;
+  text-decoration: none;
+  text-align: center;
+}
+header nav a:hover {
+  text-decoration: underline solid black;
 }
 header h1 {
   font-size: 2.8rem;
@@ -524,6 +605,7 @@ body .people-holder .people .back-end .names {
 @media (max-width: 500px) {
   body .people-holder .people .back-end .names {
     flex-direction: column;
+    align-items: center;
   }
 }
 body .people-holder .people .back-end .names .hannah {
@@ -572,6 +654,7 @@ body .people-holder .people .react2 .names {
 @media (max-width: 500px) {
   body .people-holder .people .react2 .names {
     flex-direction: column;
+    align-items: center;
   }
 }
 body .people-holder .people .react2 .names .madison {
@@ -620,6 +703,7 @@ body .people-holder .people .react1 .names {
 @media (max-width: 500px) {
   body .people-holder .people .react1 .names {
     flex-direction: column;
+    align-items: center;
   }
 }
 body .people-holder .people .react1 .names .billy {
@@ -651,6 +735,87 @@ body .people-holder .people .react1 .names .greg {
   body .people-holder .people .react1 .names .greg p {
     font-size: 0.8rem;
   }
+}
+body .people-holder .people .webUI {
+  margin-bottom: 60px;
+  background-color: #e92c42;
+  margin-top: 2%;
+  padding-top: 1%;
+  border: dashed black 2px;
+  display: flex;
+  flex-direction: column;
+}
+body .people-holder .people .webUI .names {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid black 2px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .webUI .names {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body .people-holder .people .webUI .names .brendan {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .webUI .names .brendan {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .webUI .names .brendan p {
+    font-size: 0.8rem;
+  }
+}
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #b8d8d8;
+  padding: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7%;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.footer h1 {
+  font-size: 2.8rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  .footer h1 {
+    font-size: 1.5rem;
+  }
+}
+.footer .guidr {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 1.2rem;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .footer nav {
+    font-size: 0.9rem;
+  }
+}
+.footer nav a {
+  color: #fe5f55;
+  text-decoration: none;
+  text-align: center;
+}
+.footer nav a:hover {
+  text-decoration: underline solid black;
 }
 .services {
   text-align: center;
