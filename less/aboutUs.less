@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+header {
+    .footer();
+    padding-bottom: 10px;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    
+    h2 {
+        font-size: 4rem;
+        padding: 2%;
+        color: @headertext;
+        @media @tablet {
+            font-size: 3rem;
+        }
+        @media @mobile {
+            font-size: 2.2rem;
+        }
+    }
+    h3 {
+        font-size: 2.8rem;
+        padding: 2%;
+        @media @tablet {
+            font-size: 2.4rem;
+        }
+        @media @mobile {
+            font-size: 1.8rem;
+        }
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .txt-type .txt {
+        border-right: 2px solid black;
+    }
+
+    .people-holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        
+        h4{
+            padding: 1%;
+            font-size: 2.4rem;
+            text-align: center;
+            @media @tablet {
+                font-size: 1.9rem;
+            }
+            @media @mobile {
+                font-size: 1.4rem;
+            }
+        }
+        h5{
+            padding: 1%;
+            font-size: 2.1rem;
+            @media @tablet {
+                font-size: 1.6rem;
+            }
+            @media @mobile {
+                font-size: 1.1rem;
+            }
+        }
+
+        .people {
+            width: 80%;
+            .back-end {
+                .peopledesign(@backendback);
+                .names {
+                    .namesdesign();
+                    .hannah{
+                        .individualstyle();
+                    }
+                    .sean{
+                        .individualstyle();
+                    }
+                }
+            }
+            .react2 {
+                .peopledesign(@reactIIback);
+                .names {
+                    .namesdesign();
+                    .madison {
+                        .individualstyle();
+                    }
+                    .lamberto {
+                        .individualstyle();
+                    }
+                    
+                }
+            }
+            .react1 {
+                .peopledesign(@reactIback);
+                .names {
+                    .namesdesign();
+                    .billy {
+                        .individualstyle();
+                    }
+                    .greg {
+                        .individualstyle();
+                    }
+                }
+            }
+        }   
+    }
+}

@@ -1,0 +1,670 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media (max-width: 750px) {
+  .secondHead {
+    font-size: 3.2rem;
+  }
+}
+body {
+  background-color: #4f6367;
+}
+.mainContent {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  flex-direction: column;
+  align-items: center;
+}
+.mainContent h2 {
+  font-size: 4rem;
+  color: #b8d8d8;
+  margin: 2%;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .mainContent h2 {
+    font-size: 2.8rem;
+  }
+}
+.mainContent .tripContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 750px) {
+  .mainContent .tripContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+.mainContent .tripContainer .trip {
+  background-color: #eef5db;
+  height: 800px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mainContent .tripContainer .trip h3 {
+  font-size: 2rem;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  .mainContent .tripContainer .trip h3 {
+    font-size: 1.4rem;
+  }
+}
+.mainContent .tripContainer .trip h4 {
+  font-size: 1.2rem;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  .mainContent .tripContainer .trip h4 {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 750px) {
+  .mainContent .tripContainer .trip {
+    width: 80%;
+    height: 600px;
+    flex-wrap: wrap;
+    border: solid black;
+    margin-top: 2%;
+  }
+}
+.mainContent .tripContainer .trip img {
+  width: 100%;
+  height: 45%;
+}
+.mainContent .tripContainer .trip button {
+  background-color: #fe5f55;
+  margin: 2%;
+  border: solid blue;
+  width: 80%;
+}
+.mainContent .tripContainer .trip button:hover {
+  background-color: black;
+}
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #b8d8d8;
+  padding: 0px;
+  justify-content: space-evenly;
+  height: 7%;
+}
+footer h1 {
+  font-size: 2.8rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  footer h1 {
+    font-size: 1.5rem;
+  }
+}
+footer .guidr {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 1.2rem;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  footer nav {
+    font-size: 0.9rem;
+  }
+}
+footer nav a {
+  color: #fe5f55;
+  text-decoration: none;
+  text-align: center;
+}
+footer nav a:hover {
+  text-decoration: underline solid black;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+#background {
+  /* The image used */
+  background-image: url(hiker.jpg);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(79, 99, 103, 0.85);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .overlay {
+    justify-content: center;
+  }
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+h1 {
+  font-size: 7rem;
+  color: rgba(0, 255, 255, 0.4);
+  margin: 3%;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+.text {
+  width: 78%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .text {
+    height: 50%;
+    justify-content: space-between;
+  }
+}
+.text h3 {
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .text h3 {
+    font-size: 1rem;
+  }
+}
+button {
+  max-width: 290px;
+  width: 40%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid white;
+  margin-top: 6%;
+}
+button:hover {
+  background-color: black;
+}
+@media (max-width: 500px) {
+  button {
+    width: 80%;
+  }
+}
+.buttons {
+  width: 80%;
+}
+@media (max-width: 500px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptsg8zYS_SKggPNwE44TYFv.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwOIpWqZPBQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+header {
+  width: 100%;
+  display: flex;
+  background-color: #b8d8d8;
+  padding: 0px;
+  justify-content: space-evenly;
+  height: 7%;
+  padding-bottom: 10px;
+}
+header h1 {
+  font-size: 2.8rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+header .guidr {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 1.2rem;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  header nav {
+    font-size: 0.9rem;
+  }
+}
+header nav a {
+  color: #fe5f55;
+  text-decoration: none;
+  text-align: center;
+}
+header nav a:hover {
+  text-decoration: underline solid black;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+body h2 {
+  font-size: 4rem;
+  padding: 2%;
+  color: #fe5f55;
+}
+@media (max-width: 750px) {
+  body h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  body h2 {
+    font-size: 2.2rem;
+  }
+}
+body h3 {
+  font-size: 2.8rem;
+  padding: 2%;
+}
+@media (max-width: 750px) {
+  body h3 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 500px) {
+  body h3 {
+    font-size: 1.8rem;
+  }
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0%;
+}
+body .txt-type .txt {
+  border-right: 2px solid black;
+}
+body .people-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+body .people-holder h4 {
+  padding: 1%;
+  font-size: 2.4rem;
+  text-align: center;
+}
+@media (max-width: 750px) {
+  body .people-holder h4 {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 500px) {
+  body .people-holder h4 {
+    font-size: 1.4rem;
+  }
+}
+body .people-holder h5 {
+  padding: 1%;
+  font-size: 2.1rem;
+}
+@media (max-width: 750px) {
+  body .people-holder h5 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  body .people-holder h5 {
+    font-size: 1.1rem;
+  }
+}
+body .people-holder .people {
+  width: 80%;
+}
+body .people-holder .people .back-end {
+  background-color: #03e9c7;
+  margin-top: 2%;
+  padding-top: 1%;
+  border: dashed black 2px;
+  display: flex;
+  flex-direction: column;
+}
+body .people-holder .people .back-end .names {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid black 2px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .back-end .names {
+    flex-direction: column;
+  }
+}
+body .people-holder .people .back-end .names .hannah {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .back-end .names .hannah {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .back-end .names .hannah p {
+    font-size: 0.8rem;
+  }
+}
+body .people-holder .people .back-end .names .sean {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .back-end .names .sean {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .back-end .names .sean p {
+    font-size: 0.8rem;
+  }
+}
+body .people-holder .people .react2 {
+  background-color: #0421c7;
+  margin-top: 2%;
+  padding-top: 1%;
+  border: dashed black 2px;
+  display: flex;
+  flex-direction: column;
+}
+body .people-holder .people .react2 .names {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid black 2px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .react2 .names {
+    flex-direction: column;
+  }
+}
+body .people-holder .people .react2 .names .madison {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .react2 .names .madison {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .react2 .names .madison p {
+    font-size: 0.8rem;
+  }
+}
+body .people-holder .people .react2 .names .lamberto {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .react2 .names .lamberto {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .react2 .names .lamberto p {
+    font-size: 0.8rem;
+  }
+}
+body .people-holder .people .react1 {
+  background-color: #c7be0e;
+  margin-top: 2%;
+  padding-top: 1%;
+  border: dashed black 2px;
+  display: flex;
+  flex-direction: column;
+}
+body .people-holder .people .react1 .names {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid black 2px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .react1 .names {
+    flex-direction: column;
+  }
+}
+body .people-holder .people .react1 .names .billy {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .react1 .names .billy {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .react1 .names .billy p {
+    font-size: 0.8rem;
+  }
+}
+body .people-holder .people .react1 .names .greg {
+  width: 45%;
+  border: solid black 1px;
+  padding: 5px;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  body .people-holder .people .react1 .names .greg {
+    margin: 10px;
+    width: 80%;
+  }
+  body .people-holder .people .react1 .names .greg p {
+    font-size: 0.8rem;
+  }
+}
+.services {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.services .service-container {
+  width: 90%;
+  background-color: #eef5db;
+  padding: 20px;
+}
+@media (max-width: 750px) {
+  .services .service-container {
+    width: 80%;
+  }
+}
