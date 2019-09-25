@@ -137,7 +137,7 @@ html {
   }
 }
 body {
-  background-color: #4f6367;
+  background-color: rgba(93, 93, 90);
 }
 .mainContent {
   display: flex;
@@ -148,7 +148,7 @@ body {
 }
 .mainContent h2 {
   font-size: 4rem;
-  color: #b8d8d8;
+  color: rgba(255, 244, 227);
   margin: 2%;
   width: 100%;
 }
@@ -170,7 +170,7 @@ body {
   }
 }
 .mainContent .tripContainer .trip {
-  background-color: #eef5db;
+  background-color: rgba(255, 164, 92);
   height: 800px;
   width: 30%;
   display: flex;
@@ -221,7 +221,7 @@ body {
 footer {
   width: 100%;
   display: flex;
-  background-color: #b8d8d8;
+  background-color: rgba(255, 244, 227);
   padding: 0px;
   justify-content: space-evenly;
   align-items: center;
@@ -347,7 +347,7 @@ header {
 }
 h1 {
   font-size: 7rem;
-  color: rgba(0, 255, 255, 0.4);
+  color: #ffa45c;
   margin: 3%;
 }
 @media (max-width: 500px) {
@@ -428,7 +428,7 @@ button:hover {
 header {
   width: 100%;
   display: flex;
-  background-color: #b8d8d8;
+  background-color: rgba(255, 244, 227);
   padding: 0px;
   justify-content: space-evenly;
   align-items: center;
@@ -528,6 +528,7 @@ body h2 {
 body h3 {
   font-size: 2.8rem;
   padding: 2%;
+  color: rgba(255, 244, 227);
 }
 @media (max-width: 750px) {
   body h3 {
@@ -589,8 +590,14 @@ body .people-holder h5 {
 body .people-holder .people {
   width: 80%;
 }
+body .people-holder .people img {
+  width: 80%;
+  margin: 5% 10%;
+  border-radius: 50%;
+  max-height: 455px;
+}
 body .people-holder .people .back-end {
-  background-color: #03e9c7;
+  background-color: rgba(255, 205, 171);
   margin-top: 2%;
   padding-top: 1%;
   border: dashed black 2px;
@@ -614,6 +621,10 @@ body .people-holder .people .back-end .names .hannah {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .back-end .names .hannah p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .back-end .names .hannah {
     margin: 10px;
@@ -621,6 +632,7 @@ body .people-holder .people .back-end .names .hannah {
   }
   body .people-holder .people .back-end .names .hannah p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 body .people-holder .people .back-end .names .sean {
@@ -629,6 +641,10 @@ body .people-holder .people .back-end .names .sean {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .back-end .names .sean p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .back-end .names .sean {
     margin: 10px;
@@ -636,10 +652,11 @@ body .people-holder .people .back-end .names .sean {
   }
   body .people-holder .people .back-end .names .sean p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 body .people-holder .people .react2 {
-  background-color: #0421c7;
+  background-color: rgba(171, 221, 255);
   margin-top: 2%;
   padding-top: 1%;
   border: dashed black 2px;
@@ -663,6 +680,10 @@ body .people-holder .people .react2 .names .madison {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .react2 .names .madison p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .react2 .names .madison {
     margin: 10px;
@@ -670,6 +691,7 @@ body .people-holder .people .react2 .names .madison {
   }
   body .people-holder .people .react2 .names .madison p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 body .people-holder .people .react2 .names .lamberto {
@@ -678,6 +700,10 @@ body .people-holder .people .react2 .names .lamberto {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .react2 .names .lamberto p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .react2 .names .lamberto {
     margin: 10px;
@@ -685,10 +711,11 @@ body .people-holder .people .react2 .names .lamberto {
   }
   body .people-holder .people .react2 .names .lamberto p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 body .people-holder .people .react1 {
-  background-color: #c7be0e;
+  background-color: rgba(255, 205, 171);
   margin-top: 2%;
   padding-top: 1%;
   border: dashed black 2px;
@@ -712,6 +739,10 @@ body .people-holder .people .react1 .names .billy {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .react1 .names .billy p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .react1 .names .billy {
     margin: 10px;
@@ -719,6 +750,7 @@ body .people-holder .people .react1 .names .billy {
   }
   body .people-holder .people .react1 .names .billy p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 body .people-holder .people .react1 .names .greg {
@@ -727,6 +759,10 @@ body .people-holder .people .react1 .names .greg {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .react1 .names .greg p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .react1 .names .greg {
     margin: 10px;
@@ -734,11 +770,12 @@ body .people-holder .people .react1 .names .greg {
   }
   body .people-holder .people .react1 .names .greg p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 body .people-holder .people .webUI {
   margin-bottom: 60px;
-  background-color: #e92c42;
+  background-color: rgba(171, 221, 255);
   margin-top: 2%;
   padding-top: 1%;
   border: dashed black 2px;
@@ -762,6 +799,10 @@ body .people-holder .people .webUI .names .brendan {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .webUI .names .brendan p {
+  font-size: 1.2rem;
+  padding: 15px;
+}
 @media (max-width: 500px) {
   body .people-holder .people .webUI .names .brendan {
     margin: 10px;
@@ -769,12 +810,13 @@ body .people-holder .people .webUI .names .brendan {
   }
   body .people-holder .people .webUI .names .brendan p {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }
 .footer {
   width: 100%;
   display: flex;
-  background-color: #b8d8d8;
+  background-color: rgba(255, 244, 227);
   padding: 0px;
   justify-content: space-evenly;
   align-items: center;
@@ -825,8 +867,10 @@ body .people-holder .people .webUI .names .brendan {
 }
 .services .service-container {
   width: 90%;
-  background-color: #eef5db;
+  background-color: rgba(255, 164, 92);
   padding: 20px;
+  border: solid black 2px;
+  text-align: start;
 }
 @media (max-width: 750px) {
   .services .service-container {
