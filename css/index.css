@@ -590,6 +590,11 @@ body .people-holder h5 {
 body .people-holder .people {
   width: 80%;
 }
+body .people-holder .people .git {
+  height: auto;
+  width: 40%;
+  margin: 0 30%;
+}
 body .people-holder .people img {
   width: 80%;
   margin: 5% 10%;
@@ -621,6 +626,9 @@ body .people-holder .people .back-end .names .hannah {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .back-end .names .hannah h5 {
+  text-align: center;
+}
 body .people-holder .people .back-end .names .hannah p {
   font-size: 1.2rem;
   padding: 15px;
@@ -640,6 +648,9 @@ body .people-holder .people .back-end .names .sean {
   border: solid black 1px;
   padding: 5px;
   margin: 20px;
+}
+body .people-holder .people .back-end .names .sean h5 {
+  text-align: center;
 }
 body .people-holder .people .back-end .names .sean p {
   font-size: 1.2rem;
@@ -680,6 +691,9 @@ body .people-holder .people .react2 .names .madison {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .react2 .names .madison h5 {
+  text-align: center;
+}
 body .people-holder .people .react2 .names .madison p {
   font-size: 1.2rem;
   padding: 15px;
@@ -699,6 +713,9 @@ body .people-holder .people .react2 .names .lamberto {
   border: solid black 1px;
   padding: 5px;
   margin: 20px;
+}
+body .people-holder .people .react2 .names .lamberto h5 {
+  text-align: center;
 }
 body .people-holder .people .react2 .names .lamberto p {
   font-size: 1.2rem;
@@ -739,6 +756,9 @@ body .people-holder .people .react1 .names .billy {
   padding: 5px;
   margin: 20px;
 }
+body .people-holder .people .react1 .names .billy h5 {
+  text-align: center;
+}
 body .people-holder .people .react1 .names .billy p {
   font-size: 1.2rem;
   padding: 15px;
@@ -758,6 +778,9 @@ body .people-holder .people .react1 .names .greg {
   border: solid black 1px;
   padding: 5px;
   margin: 20px;
+}
+body .people-holder .people .react1 .names .greg h5 {
+  text-align: center;
 }
 body .people-holder .people .react1 .names .greg p {
   font-size: 1.2rem;
@@ -798,6 +821,9 @@ body .people-holder .people .webUI .names .brendan {
   border: solid black 1px;
   padding: 5px;
   margin: 20px;
+}
+body .people-holder .people .webUI .names .brendan h5 {
+  text-align: center;
 }
 body .people-holder .people .webUI .names .brendan p {
   font-size: 1.2rem;
