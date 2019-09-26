@@ -382,7 +382,7 @@ h1 {
     font-size: 1rem;
   }
 }
-button {
+.button {
   max-width: 290px;
   width: 40%;
   text-align: center;
@@ -394,11 +394,11 @@ button {
   border: solid white;
   margin-top: 6%;
 }
-button:hover {
+.button:hover {
   background-color: black;
 }
 @media (max-width: 500px) {
-  button {
+  .button {
     width: 80%;
   }
 }
