@@ -590,6 +590,11 @@ body .people-holder h5 {
 body .people-holder .people {
   width: 80%;
 }
+body .people-holder .people .git {
+  height: auto;
+  width: 40%;
+  margin: 3% 30%;
+}
 body .people-holder .people img {
   width: 80%;
   margin: 5% 10%;
